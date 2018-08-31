@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GameView.mouseMoved(with:):GameView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mf">
+            </PersistentString>
+            <PersistentString
+               value = "lastMousePosition.x">
+            </PersistentString>
+            <PersistentString
+               value = "lastMousePosition.y">
+            </PersistentString>
+            <PersistentString
+               value = "CGGetLastMouseDelta()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.playAnim(anim:play:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "suakeHead.attackAnimation">
+            </PersistentString>
+            <PersistentString
+               value = "suakeHead.animPlayer">
+            </PersistentString>
+            <PersistentString
+               value = "suakeElement">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in Suake.startAnim():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.suakeHead.dir">
+            </PersistentString>
+            <PersistentString
+               value = "self.getMovePartsPosStep(val: self.moveDist * -1)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SuakeNodeNG.init(node:):SuakeNodeNG.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.geometry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.getSuakeNode(opponent:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nodeExp.childNodes[0].childNodes[2].childNodes[0].geometry">
+            </PersistentString>
+            <PersistentString
+               value = "node1.geometry!">
+            </PersistentString>
+            <PersistentString
+               value = "node1234567.geometry">
+            </PersistentString>
+            <PersistentString
+               value = "nodeExp">
+            </PersistentString>
+            <PersistentString
+               value = "scene123?.rootNode.childNode(withName: &quot;suake4Export&quot;, recursively: true)?.childNodes[0].childNodes[2].childNodes[0].geometry">
+            </PersistentString>
+            <PersistentString
+               value = "node1.childNodes.count">
+            </PersistentString>
+            <PersistentString
+               value = "scene123?.rootNode.childNode(withName: &quot;suake4Export&quot;, recursively: true)?.childNodes[2].geometry">
+            </PersistentString>
+            <PersistentString
+               value = "node1.flattenedClone().geometry">
+            </PersistentString>
+            <PersistentString
+               value = "geo">
+            </PersistentString>
+            <PersistentString
+               value = "arrSuakeNodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.selectWeapon(weaponToSelect:pickedUp:mute:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.rocketlauncher.shots">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized Portal.init(game:inPortal:):Portal.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.suake.suakeHead.geometry">
+            </PersistentString>
+            <PersistentString
+               value = "game.suake.suakeHead">
+            </PersistentString>
+            <PersistentString
+               value = "game.suake">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.moveSuake(dir:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nextField">
+            </PersistentString>
+            <PersistentString
+               value = "game.suakeOpp.suakeHead.pos">
+            </PersistentString>
+            <PersistentString
+               value = "game.suake.suakeHead.pos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Arrows.showHideHelperArrows():Arrows.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imgDown.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.animCamera():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.camPosOrig">
+            </PersistentString>
+            <PersistentString
+               value = "suakeHead.dir">
+            </PersistentString>
+            <PersistentString
+               value = "suakeHead.oldDir">
+            </PersistentString>
+            <PersistentString
+               value = "game.cameraNode.position.z">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.panCamera(_:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "gameView.pointOfView.name">
+            </PersistentString>
+            <PersistentString
+               value = "gameView.xDelta">
+            </PersistentString>
+            <PersistentString
+               value = "Float(gameView.xDelta * 0.005) / (Float.pi / 2)">
+            </PersistentString>
+            <PersistentString
+               value = "lockCamera">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RailgunBeam.addRailgunShot(pos:beam:):RailgunBeam.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "twoPointsNode2.geometry">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized GameViewController.physicsWorld(_:didBegin:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contact.nodeA.isEqual(to: goodyNode)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized closure #1 in closure #1 in Suake.startAnim():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.suakeHead.rotation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SuakeNode.playAnim():SuakeNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "animPlayer">
+            </PersistentString>
+            <PersistentString
+               value = "animationPlayer(forKey: animPlayer)!">
+            </PersistentString>
+            <PersistentString
+               value = "animationPlayer()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GoodyNode.init():GoodyNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "childNode(withName: &quot;nurbsTorus1&quot;, recursively: true)">
+            </PersistentString>
+            <PersistentString
+               value = "childNode1.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized closure #1 in Suake.startAnim():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.suakeHead.animationPlayer()">
+            </PersistentString>
+            <PersistentString
+               value = "self.tmp">
+            </PersistentString>
+            <PersistentString
+               value = "self.bendLeft">
+            </PersistentString>
+            <PersistentString
+               value = "self.suakeHead.animation()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SuakeNode.animationPlayer():SuakeNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "animPlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Shotgun.addSingleBullet(pos:vect:):Shotgun.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bulletsNode.physicsBody?.mass">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized Suake.loadAnimationNamed(_:fromSceneNamed:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sceneSource">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.moveOrGrow(pos:x:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.canceled">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.startAnim():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "suakeHead.attackAnimation">
+            </PersistentString>
+            <PersistentString
+               value = "suakeHead">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AVPlayer.isPlaying.getter:MediaManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rate != 0 &amp;&amp; error == nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FireNode.init(game:):FireNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "particleDustSystem?.colliderNodes">
+            </PersistentString>
+            <PersistentString
+               value = "game.suake.suakeHead">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WeaponBase.shoot():WeaponBase.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "firedShots">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MediaManager.init():MediaManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.player?.volume">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MediaManager.volume.setter:MediaManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_volume">
+            </PersistentString>
+            <PersistentString
+               value = "_volumeNG.description">
+            </PersistentString>
+            <PersistentString
+               value = "Double(newValue).roundTo(places: 2)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized Suake.copyAllNodeElementsFromScene(sceneName:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nodeArray3">
+            </PersistentString>
+            <PersistentString
+               value = "sceneName">
+            </PersistentString>
+            <PersistentString
+               value = "scene1">
+            </PersistentString>
+            <PersistentString
+               value = "scene1?.rootNode.childNodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Suake.startAnim():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.suakeTail.pos">
+            </PersistentString>
+            <PersistentString
+               value = "self.suakeHead.beamed">
+            </PersistentString>
+            <PersistentString
+               value = "self.suakeHead.pos">
+            </PersistentString>
+            <PersistentString
+               value = "self.opponent">
+            </PersistentString>
+            <PersistentString
+               value = "arrSuakeNodes">
+            </PersistentString>
+            <PersistentString
+               value = "self.suakeHead.dir">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.moveAndCheck4GoodyAtNextPos(suakeHeadNode:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.goodyNode.pos.x">
+            </PersistentString>
+            <PersistentString
+               value = "game.goodyNode.pos.z">
+            </PersistentString>
+            <PersistentString
+               value = "suakeHeadNode.pos.z">
+            </PersistentString>
+            <PersistentString
+               value = "suakeHeadNode.pos.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Rocketlauncher.addRocket(xDelta:):Rocketlauncher.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MapOverlay.drawMap():MapOverlay.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dbg.fontName">
+            </PersistentString>
+            <PersistentString
+               value = "gameBoard.suake.suakeHead.pos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MediaManager.volume.getter:MediaManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_volume">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.drawMapOverlay():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "mapOverlay">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WallNode.addWallNode(x:z:scale:):WallNode.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.gameView.scene">
+            </PersistentString>
+            <PersistentString
+               value = "wall">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.renderer(_:updateAtTime:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cameraNode.rotation">
+            </PersistentString>
+            <PersistentString
+               value = "rocketlauncherWP.shots">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.restartGame():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sk">
+            </PersistentString>
+            <PersistentString
+               value = "lightNode.position">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Rocketlauncher.addWPRocketLauncher():Rocketlauncher.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "game.suake.suakeHead.size.y ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.mouseDown(in:with:):GameControls.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.gameView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "lastMousePosition.y">
+            </PersistentString>
+            <PersistentString
+               value = "self.gameView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.moveParts(val:x:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "suakeHead.position.x">
+            </PersistentString>
+            <PersistentString
+               value = "self.suakeHead.pos.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Arrows.setArrowsHiddedOrNot(imgUp:imgRight:imgDown:imgLeft:):Arrows.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(!((game.goodyNode.pos.x &gt; game.suake.suakeHead.pos.x) &amp;&amp; showArrows == .DIR))">
+            </PersistentString>
+            <PersistentString
+               value = "(!((game.goodyNode.pos.x &gt; game.suake.suakeHead.pos.x) &amp;&amp; showArrows == .DIR)) || showArrows != .ALL">
+            </PersistentString>
+            <PersistentString
+               value = "(!((game.goodyNode.pos.z &gt; game.suake.suakeHead.pos.z) &amp;&amp; showArrows == .DIR))">
+            </PersistentString>
+            <PersistentString
+               value = "game.goodyNode.pos.x">
+            </PersistentString>
+            <PersistentString
+               value = "imgLeft.name">
+            </PersistentString>
+            <PersistentString
+               value = "(!((game.goodyNode.pos.x &lt; game.suake.suakeHead.pos.x) &amp;&amp; showArrows == .DIR)) &amp;&amp; showArrows != .ALL">
+            </PersistentString>
+            <PersistentString
+               value = "(!((game.goodyNode.pos.x &gt; game.suake.suakeHead.pos.x) &amp;&amp; showArrows == .DIR)) &amp;&amp; showArrows != .ALL">
+            </PersistentString>
+            <PersistentString
+               value = "(!((game.goodyNode.pos.z &lt; game.suake.suakeHead.pos.z) &amp;&amp; showArrows == .DIR)) &amp;&amp; showArrows != .ALL">
+            </PersistentString>
+            <PersistentString
+               value = "game.goodyNode.pos.x &gt; game.suake.suakeHead.pos.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.physicsWorld(_:didBegin:):GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "blt.bltGrp">
+            </PersistentString>
+            <PersistentString
+               value = "contact.nodeA.name">
+            </PersistentString>
+            <PersistentString
+               value = "contact.nodeB.name">
+            </PersistentString>
+            <PersistentString
+               value = "contact.nodeB.position">
+            </PersistentString>
+            <PersistentString
+               value = "suakeOpp.suakeHead.position">
+            </PersistentString>
+            <PersistentString
+               value = "suakeOpp.health">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.init(_gameBoard:opponent:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "arrSuakeNodes">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Rocketlauncher.addRocket(pos:xDelta:):Rocketlauncher.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "wrapperNode.physicsBody?.mass">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "WallFactory.createWall():WallFactory.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "plainPlaneGeometry.firstMaterial?.diffuse.contents">
+            </PersistentString>
+            <PersistentString
+               value = "NSImage.init(named: &quot;wall1.jpg&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "wallFields">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.checkNextField():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "suakeHead.pos">
+            </PersistentString>
+            <PersistentString
+               value = "game.portal2.portalIn.pos">
+            </PersistentString>
+            <PersistentString
+               value = "game.suakeOpp.arrSuakeNodes[i]">
+            </PersistentString>
+            <PersistentString
+               value = "game.suakeOpp.arrSuakeNodes[4].name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.copyAllNodeElementsFromScene(sceneName:):Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "scene1.rootNode.animationKeys">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GameViewController.viewDidLoad():GameViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cameraNode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapOverlay.drawSuake(color:arrSuakeNodes:):MapOverlay.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "suake.strokeColor">
+            </PersistentString>
+            <PersistentString
+               value = "gameBoard.suake.arrSuakeNodes.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Suake.appendSuakeNodeInt():Suake.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "suakeNode2.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
