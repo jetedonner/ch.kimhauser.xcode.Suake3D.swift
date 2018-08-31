@@ -1268,7 +1268,7 @@ class GameViewController: ViewController, SCNSceneRendererDelegate, SCNPhysicsCo
                 if(suake.nextKeyModifierFlags.contains(NSEvent.ModifierFlags.shift)){
                     mediaManager.incVol()
                 }else if(suake.nextKeyModifierFlags.contains(NSEvent.ModifierFlags.option)){
-                    showDbgMsg(dbgMsg: DbgMsgs.dbgAmmoReload + DbgMsgs.machineGun)
+                    showDbgMsg(dbgMsg: DbgMsgs.dbgAmmoReload + DbgMsgs.machinegun)
                     suake.machinegun.ammoCount += machinegunWP.shotsPerPickup
                     suake.selectWeapon(weaponToSelect: CollisionCategory.MachineGunCategory, pickedUp: true)
                 }else{

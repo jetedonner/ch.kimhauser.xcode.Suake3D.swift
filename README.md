@@ -1,18 +1,16 @@
-# Fox: Building a SceneKit Game with the Xcode Scene Editor
+# ch.kimhauser.xcode.Suake3D.swift
 
-This sample code demonstrates how to use Xcode to build a SceneKit level, choose the renderer in between Metal and OpenGL ES, add positional audio triggers, and setup light maps with the new material properties.
-It also demonstrates the usage of particle systems, complex material settings including normal and illumination maps. SceneKit's physics is used to detect collisions with walls, ground, enemy and to collect collectable items.
-This sample app also show how to use SpriteKit to achieve the 2D game overlays (for score and congratulations screen).
+A hybrid 3D action game mixing the 2D classic phone game Snake and the 90s epic 3D ego shooter Quake
 
 ## Requirements
 
 ### Build
 
-Xcode 8.0, iOS 9.0 SDK, tvOS 9.0 SDK, OS X 10.11 SDK
+Xcode 8.0, iOS 9.0 SDK, OS X 10.11 SDK (tvOS 9.0 SDK - coming soon)
 
 ### Runtime
 
-iOS 9.0, tvOS 9.0, OS X 10.11
+iOS 9.0, OS X 10.11 (tvOS 9.0 - coming soon)
 
-Copyright (C) 2016 Apple Inc. All rights reserved.
-# ch.kimhauser.xcode.Suake3D.swift
+Copyright (C) 2018 kimhauser.ch. All rights reserved.
+

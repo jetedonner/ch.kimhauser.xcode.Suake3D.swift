@@ -14,6 +14,10 @@ class WeaponBase{
     var game:GameViewController!
     var firedShots:[BulletBase] = [BulletBase]()
     
+    
+    var gunName:String = "WeaponBase"
+    var soundType:MediaManager.SoundType = MediaManager.SoundType.beep
+    
     var _ammoCount:Int = 0
     public var ammoCount:Int{
         set{ _ammoCount = newValue }
@@ -26,7 +30,9 @@ class WeaponBase{
         //self.name = "WeaponBase"
     }
     
-    func initWeapon(initAmmoCount: Int = 1) {
+    func initWeapon(gunName:String, soundType:MediaManager.SoundType, initAmmoCount: Int = 1) {
+        self.gunName = gunName
+        self.soundType = soundType
         self.ammoCount = initAmmoCount
     }
     
@@ -37,6 +43,8 @@ class WeaponBase{
             let newShot:BulletBase = fireSpecificShot()
             firedShots.append(newShot)
             game.gameView.scene?.rootNode.addChildNode(newShot)
+            game.mediaManager.playSound(soundType: self.soundType)
+            game.showDbgMsg(dbgMsg: DbgMsgs.suake + gunName + " " + DbgMsgs.fired)
         }else{
             game.showDbgMsg(dbgMsg: DbgMsgs.noAmmo)
             game.mediaManager.playSound(soundType: .noammo)

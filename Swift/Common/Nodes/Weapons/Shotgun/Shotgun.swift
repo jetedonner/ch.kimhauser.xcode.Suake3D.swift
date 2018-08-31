@@ -19,12 +19,10 @@ class Shotgun: WeaponBase {
     required override init(){
         super.init()
         // Init gun specific var
-        self.initWeapon(initAmmoCount: DbgVars.initShotgunAmmo)
+        self.initWeapon(gunName: DbgMsgs.shotgun, soundType: .shotgun, initAmmoCount: DbgVars.initShotgunAmmo)
     }
     
     override func fireSpecificShot()->PelletGrp{
-        game.showDbgMsg(dbgMsg: DbgMsgs.shotgunFired)
-        game.mediaManager.playSound(soundType: .shotgun)
         let pltGrp:PelletGrp = PelletGrp(_game: self.game, _shotgun: self)
         pltGrp.addShotgunShot()
         return pltGrp

@@ -176,7 +176,7 @@ class Suake: NSObject, CAAnimationDelegate{
         var selGunString:String = "(none)"
         var ammoCount:Int = 0
         if(self.selectedWeapon == CollisionCategory.MachineGunCategory){
-            selGunString = DbgMsgs.machineGun
+            selGunString = DbgMsgs.machinegun
             ammoCount = machinegun.ammoCount
             game.imgRailgun.isHidden = true
             game.imgRailgun.alpha = 0

@@ -37,6 +37,8 @@ public class DbgMsgs {
     static let gameWormHoleOn:String = "Game: WORMHOLE SHOWING"
     static let gameWormHoleOff:String = "Game: WORMHOLE HIDDEN"
     
+    static let suake:String = "Suake: "
+    
     static let noAmmo:String = "Suake: No Ammo"
     static let oppHit:String = "Suake: Opponent HIT"
     static let youDied:String = "Suake: You DIED"
@@ -45,10 +47,18 @@ public class DbgMsgs {
     static let rifleShotBeamed:String = "Suake: Rifle shot beamed"
     static let growTest:String = "Suake: GROW TEST"
     static let weaponSelected:String = "Suake: WEAPON SELECTED: "
-    static let machineGun:String = "Machinegun"
+    static let machinegun:String = "Machinegun"
     static let shotgun:String = "Shotgun"
     static let rocketlauncher:String = "Rocketlauncher"
     static let railgun:String = "Railgun"
+    
+    //static let machinegun:String = "Machinegun"
+    //static let shotgun:String = "Shotgun"
+    //static let rocketlauncher:String = "Rocketlauncher"
+    //static let railgun:String = "Railgun"
+    
+    static let fired:String = "FIRED"
+    
     static let machinegunFired:String = "Suake: MACHINEGUN FIRED"
     static let rocketFired:String = "Suake: ROCKET FIRED"
     static let shotgunFired:String = "Suake: SHOTGUN FIRED"

@@ -18,12 +18,10 @@ class Machinegun: WeaponBase{
     
     required override init(){
         super.init()
-        self.initWeapon(initAmmoCount: DbgVars.initMachinegunAmmo)
+        self.initWeapon(gunName: DbgMsgs.machinegun, soundType: .rifle, initAmmoCount: DbgVars.initMachinegunAmmo)
     }
     
     override func fireSpecificShot()->MachinegunBullet{
-        game.showDbgMsg(dbgMsg: DbgMsgs.machinegunFired)
-        game.mediaManager.playSound(soundType: .rifle)
         return MachinegunBullet(_game: self.game)
     }
     

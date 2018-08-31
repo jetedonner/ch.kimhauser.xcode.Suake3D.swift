@@ -19,17 +19,10 @@ class Rocketlauncher: WeaponBase{
     required override init(){
         super.init()
         
-        self.initWeapon(initAmmoCount: DbgVars.initRocketlauncherAmmo)
+        self.initWeapon(gunName: DbgMsgs.rocketlauncher, soundType: .bottleRocket, initAmmoCount: DbgVars.initRocketlauncherAmmo)
     }
     
-    /*func applyForceToBullet(blt:MachinegunBulllet, vect:SCNVector3){
-        blt.physicsBody?.velocity = vect
-        blt.physicsBody?.applyForce(vect, asImpulse: true)
-    }*/
-    
     override func fireSpecificShot()->RocketNode{
-        game.showDbgMsg(dbgMsg: DbgMsgs.rocketFired)
-        game.mediaManager.playSound(soundType: .bottleRocket)
         let rocketNode:RocketNode = addRocket(pos: SCNVector3(x: 0, y: 0, z: 0), xDelta: 0.0)
         return rocketNode
     }
